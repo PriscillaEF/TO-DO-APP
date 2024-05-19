@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO APP</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d57d8dbec8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="to-do-container">
+        <div class="input-container">
+          <input type="text" placeholder="Add a new task" id="input-box" />
+          <button id="add">+</button>
+        </div>
+
+        <div id="lists-container">
+          <div class="tasks">
+            <p>Tasks to do - <span id="count-task"> 0 </span></p>
+
+            <ul id="lists">
+              <!-- <li> To study React fundamentals
+              <div> <i class="fas fa-check"></i> <i class="fas fa-trash"></i></div>
+            </li>
+            <li> To study React fundamentals
+              <div> <i class="fas fa-check"></i> <i class="fas fa-trash"></i></div>
+            </li>
+            <li> To study React fundamentals
+              <div> <i class="fas fa-check"></i> <i class="fas fa-trash"></i></div>
+            </li>
+            <li> To study React fundamentals
+              <div> <i class="fas fa-check"></i> <i class="fas fa-trash"></i></div>
+            </li>
+            --></ul>
+          </div>
+
+          <div class="complete">
+            <p>Done - <span id="count-done"> 0 </span></p>
+
+            <ul class="task-done">
+              <!-- <li> To study React fundamentals
+      
+            </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
